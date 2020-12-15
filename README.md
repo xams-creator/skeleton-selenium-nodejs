@@ -3,5 +3,7 @@
 
 ## quick-start
 ```$xslt
+npm i 
+
 node src/index.js
 ```
