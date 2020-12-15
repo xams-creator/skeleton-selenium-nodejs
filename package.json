@@ -1,0 +1,29 @@
+{
+    "name": "skeleton-selenium-nodejs",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./src/index.js",
+    "dependencies": {
+        "moment": "^2.27.0",
+        "chalk": "^2.4.2",
+        "chromedriver": "^83.0.0",
+        "selenium-webdriver": "^4.0.0-alpha.7"
+    },
+    "devDependencies": {
+        "@types/node": "^12.11.7",
+        "eslint": "^5.9.0",
+        "babel-eslint": "^10.0.1",
+        "ts-lint": "^4.5.1",
+        "tslint": "^5.19.0",
+        "typescript": "^3.6.2"
+    },
+    "scripts": {
+        "start": "node src/index.js",
+        "start1": "node --inspect-brk  index.js"
+    },
+    "keywords": [
+        "skeleton",
+        "selenium"
+    ],
+    "author": "xams-creator"
+}

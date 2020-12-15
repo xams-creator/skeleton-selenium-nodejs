@@ -1,0 +1,60 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+    ],
+    "settings": {
+        "polyfills": [
+            "fetch",
+            "promises",
+            "url",
+            "object-assign"
+        ]
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            0,
+            "error",
+            "window"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "react/display-name": [
+            0
+        ],
+        "space-in-parens": [
+            "error",
+            "never"
+        ],
+        "object-curly-spacing": [
+            "error",
+            "never"
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "no-console": "off"
+    }
+}
